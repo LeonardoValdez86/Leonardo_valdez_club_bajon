@@ -11,7 +11,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fredoka+One&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-  <link rel="stylesheet" href="/css/estilos.2.css">
+  <link rel="stylesheet" href="/css/estilos.css">
 
     <title>El CLUB - BOOTSTRAP</title>
 </head>
@@ -19,40 +19,46 @@
 
 <body>
 
-    <header>
-    <nav class="navbar navbar-expand-lg fixed-top scrolling-navbar ">
-        <div class="container">
-          <a  href="#"><h1 class="w-75"><img class="w-25" src="/img/LogoRemera (1).png" alt=""></h1></a>   
-          <div class="collapse navbar-collapse" id="navbarSupportedContent1">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-7" aria-controls="navbarSupportedContent-7" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent-7">
+    
+      <nav class="navbar navbar-expand-md fixed-top ">
+           <a  href="#" class="navbar-brand logo pulse"><img class="w-50" src="/img/LogoRemera (1).png" alt=""></a>   
+          <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#toggleMobileMenu"
+          aria-controls="toggleMobileMenu"
+          aria-expanded="false"
+          aria-lable="toggle navigation"
+          >
+          <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="toggleMobileMenu">
+            <ul class="navbar-nav ms-auto text-center">
+              <li>
+                <a class="nav-link" href="#">HOME</a>
+              </li>
+              <li>
+                <a class="nav-link" href="./pages/combos.html">COMBOS</a>
+              </li>
+              <li>
+                <a class="nav-link" href="./pages/delivery.html">DELIVERY</a>
+              </li>
+              <li>
+                <a class="nav-link" href="./pages/locales.html">LOCALES</a>
+              </li>
+              <li>
+                <a class="nav-link" href="./pages/contacto.html">CONTACTO</a>
+              </li>
+            </ul>
 
-          <div class="collapse navbar-collapse" id="navbarSupportedContent15">
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                  <a href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a  href="./pages/combos.html">COMBOS</a>
-                </li>
-                <li class="nav-item">
-                  <a  href="./pages/delivery.html">DELIVERY</a>
-                </li>
-                <li class="nav-item">
-                  <a href="./pages/locales.html">LOCALES</a>
-                </li>
-                <li class="nav-item">
-                  <a href="./pages/contacto.html">CONTACTO</a>
-                </li>
-              </ul>
-          
           </div>
-        </div>
-          </div>
-        </div>
+
+
       </nav>
+   
+
+
 
           <div  class="view "  style="background-image: url(/img/burger-g6ac322dbd_1280.jpg); background-repeat: no-repeat; background-size: cover; background-position: center;">
 
@@ -67,10 +73,11 @@
             
 
           </div>
+        </div>
 
 
 
-       </header>
+      
 
       <div class="row "> 
 
@@ -98,7 +105,7 @@
              Queremos una fiesta en tu paladar, llenar tu panza y tu corazón</p>
           </section>
 
-          <section class="col-md-12 col-sm-12 col-lg-5 text-center carrusel">
+          <section class="col-md-12 col-sm-12 col-lg-5 text-center carrusel d-flex justify-content-center align-items-center">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -151,20 +158,21 @@
         </div>
 
 
+    <div class="row ">    
+
+      <div class="view2" style="background-image: url(/img/local\ trucho.jpg); background-repeat: no-repeat; background-size: cover; background-position: center;">
+
+      <div class="col-12 text-center">
+
     <div class="row">    
-
-      <div class="view" style="background-image: url(/img/local\ trucho.jpg); background-repeat: no-repeat; background-size: cover; background-position: center;">
-
-      <div class="col-sm-12 text-center">
-
-        <section class="contacto_index">
+        <section class="contacto_index d-flex justify-content-center align-items-center ">
           <article>
               <p class="trab_1"><a href="/pages/contacto.html"> ¿QUERES TRABAJAR CON NOSOTROS? </a></p>
           </article>
       </section>
 
 
-          <section class="contacto_index">
+          <section class="contacto_index d-flex justify-content-center align-items-center ">
             <article>
               <p class="trab_1"><a href="/pages/contacto.html"> ¿QUERES CONOCER NUESTRO LOCAL? </a></p>
             </article>
@@ -180,13 +188,13 @@
     </main>
 
 
-<footer class="page-footer">
+<footer class="page-footer border-top">
 
   <div class=" text-center ">
 
     <div class="row">
 
-      <div class="col-md-12 mt-md-0 mt-3">
+      <div class="col-md-12">
 
         <h2 class="text-uppercase text-center">El Club Del Bajon</h2>
         <ul class="text-center">
