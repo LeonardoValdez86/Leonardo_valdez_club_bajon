@@ -218,6 +218,32 @@ footer ul {
   font-family: "Bebas Neue";
 }
 
+main {
+  margin-top: 8.5em;
+  border-color: aliceblue;
+  border: solid;
+}
+
+label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "Bebas Neue";
+  font-size: 25px;
+  color: #FFBA00;
+}
+
+.form-control {
+  background-color: #FFBA00;
+}
+
+.boton-contacto {
+  background-color: #FFBA00 !important;
+}
+
 @media screen and (max-width: 767px) {
   nav ul {
     padding-right: 10px;

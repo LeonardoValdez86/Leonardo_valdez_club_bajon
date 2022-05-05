@@ -1,0 +1,24 @@
+main{
+    margin-top: 8.5em;
+    border-color: aliceblue;
+    border: solid;
+}
+
+
+label{
+    display: flex;
+    justify-content: center;
+    font-family: $font1;
+    font-size: 25px;
+    color: $color1;
+}
+
+.form-control{
+    background-color: $color1;
+}
+
+
+
+.boton-contacto{
+    background-color: $color1 !important;
+}
