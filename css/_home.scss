@@ -1,0 +1,194 @@
+
+
+
+body {
+    width: 100vw;
+    overflow-x: hidden;
+    background-color: #000;
+}
+
+
+.navbar {
+    background: rgba(0, 0, 0, 0.918);
+}
+
+.nav-link {
+    border-color: $color1 !important;
+}
+
+
+
+nav a {
+    padding-left: 100px;
+}
+
+nav ul {
+    padding-right: 150px;
+
+
+li a {
+    color: $color1 !important;
+    font-family: $font1;
+    text-decoration: none;
+    font-size: 2em;
+}
+
+}
+
+
+button span {
+    color: $color1;
+    font-size: 25px;
+}
+
+ul li :hover {
+    transform: scale(1.2);
+    transition: all 1s;
+}
+
+.view {
+    height: 100vh;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.slogan_ppal {
+    font-family: $font1;
+    color: $color1;
+    text-transform: uppercase;
+}
+
+.slogan {
+    font-size: 5.50em;
+}
+
+.solo_merlo {
+    font-size: 3.75em;
+}
+
+.hace_pedido {
+    font-size: 30px;
+    color: #ffffff;
+    padding-top: 1.87em;
+    text-decoration: none;
+}
+
+.hace_pedido:hover {
+    color: #666;
+}
+
+.caja_amarilla {
+    width: 100%;
+    height: 50vh;
+    background-color: $color1;
+}
+
+.welcome_text {
+    text-align: center;
+    font-size: 6.25em;
+    font-family: $font1;
+    color: $color2;
+}
+
+.icons_welcome a i {
+    font-size: 3.125em;
+    text-align: center;
+    padding: 10px;
+    color: $color2;
+}
+
+.icons_welcome a i:hover {
+    transform: scale(1.2);
+    transition: all 1s;
+}
+
+.fondo-nosotros {
+    background-color: #000;
+}
+
+
+.somos-club {
+    text-align: center;
+    font-size: 2em;
+    font-family: $font1;
+    color: $color1;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.carrusel {
+    padding-right: 3.125em;
+    padding-left: 3.125em;
+}
+
+
+.contacto_index {
+    width: 100%;
+    height: 300px;
+    background-color: #ffbb009f;
+    margin-bottom: 50px;
+    margin-top: 50px;
+
+
+}
+
+
+
+.trab_1 {
+
+    font-size: 60px;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+
+}
+
+.contacto_index p a {
+    text-decoration: none;
+    color: $color2;
+}
+
+.contacto_index p:hover {
+    transform: scale(1.2);
+    transition: all 1s;
+}
+
+
+footer {
+    background-color: $color2;
+
+
+h2 {
+    font-size: 3.75em;
+    font-family: $font1;
+    text-align: center;
+    color: $color1;
+}
+}
+
+
+footer ul {
+    list-style: none;
+    font-size: 1.25em;
+    font-family: $font1;
+    text-align: center;
+    color: $color1;
+}  
+
+
+
+.footer-copyright {
+    background-color: rgb(8, 8, 8);
+    font-size: 1.25em;
+    font-family: $font1;
+    color: $color1;
+    text-decoration: none;
+
+}
+
+.footer-copyright a {
+    text-decoration: dotted;
+    color: #775a09;
+}
