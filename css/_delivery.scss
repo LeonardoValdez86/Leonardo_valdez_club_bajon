@@ -1,0 +1,36 @@
+
+
+.deliv-body{
+    margin-top: 180px;
+    margin-bottom: 180px;
+    background-color: rgba(0, 0, 0, 0.767);
+}
+
+.deliv-body h2{
+    @extend .font_yellow;
+    font-size: 6.50em;
+
+}
+
+
+.deliv-body p{
+    @extend .font_yellow;
+    font-size: 2.5em;
+}
+
+.deliv-body h4{
+    @extend .font_yellow;
+    font-size: 2em;
+    padding-bottom: 10px
+}
+
+.deliv-body span{
+    @extend.font_yellow;
+    padding-top: 3px;
+
+}
+
+
+.deliv-body iframe{
+    padding-right:0px;
+}

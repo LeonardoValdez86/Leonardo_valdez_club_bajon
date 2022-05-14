@@ -1,4 +1,4 @@
-.font_yellow, .slogan_ppal, .la-galeria, .somos-club, footer ul, .footer-copyright {
+.font_yellow, .slogan_ppal, .la-galeria, .somos-club, footer ul, .footer-copyright, .deliv-body h2, .deliv-body p, .deliv-body h4, .deliv-body span {
   font-family: "Bebas Neue";
   color: #FFBA00;
 }
@@ -308,5 +308,32 @@ label {
   .la-galeria {
     font-size: 3.5em;
   }
+}
+
+.deliv-body {
+  margin-top: 180px;
+  margin-bottom: 180px;
+  background-color: rgba(0, 0, 0, 0.767);
+}
+
+.deliv-body h2 {
+  font-size: 6.50em;
+}
+
+.deliv-body p {
+  font-size: 2.5em;
+}
+
+.deliv-body h4 {
+  font-size: 2em;
+  padding-bottom: 10px;
+}
+
+.deliv-body span {
+  padding-top: 3px;
+}
+
+.deliv-body iframe {
+  padding-right: 0px;
 }
 /*# sourceMappingURL=estilos.css.map */
