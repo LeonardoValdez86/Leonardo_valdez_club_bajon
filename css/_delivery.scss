@@ -1,5 +1,4 @@
 
-
 .deliv-body{
     margin-top: 180px;
     margin-bottom: 180px;
@@ -15,16 +14,17 @@
 
 .deliv-body p{
     @extend .font_yellow;
-    font-size: 2.5em;
+    font-size: 2em;
 }
 
 .deliv-body h4{
     @extend .font_yellow;
-    font-size: 2em;
+    font-size: 1.8em;
     padding-bottom: 10px
 }
 
 .deliv-body span{
+    font-size: 1.2em;
     @extend.font_yellow;
     padding-top: 3px;
 

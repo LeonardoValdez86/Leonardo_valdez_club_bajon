@@ -153,6 +153,8 @@ ul li :hover {
 
 footer {
   background-color: #000;
+  position: -webkit-sticky;
+  position: sticky;
 }
 
 footer h2 {
@@ -181,6 +183,122 @@ footer ul {
 }
 
 /* COMBOS */
+.body-galeria {
+  background-color: #181200;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.bg {
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  right: -50%;
+  bottom: -50%;
+  width: 200%;
+  height: 200vh;
+  background: transparent url("http://assets.iceable.com/img/noise-transparent.png") repeat 0 0;
+  background-repeat: repeat;
+  -webkit-animation: bg-animation .2s infinite;
+          animation: bg-animation .2s infinite;
+  opacity: .9;
+  visibility: visible;
+}
+
+@-webkit-keyframes bg-animation {
+  0% {
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
+  10% {
+    -webkit-transform: translate(-5%, -5%);
+            transform: translate(-5%, -5%);
+  }
+  20% {
+    -webkit-transform: translate(-10%, 5%);
+            transform: translate(-10%, 5%);
+  }
+  30% {
+    -webkit-transform: translate(5%, -10%);
+            transform: translate(5%, -10%);
+  }
+  40% {
+    -webkit-transform: translate(-5%, 15%);
+            transform: translate(-5%, 15%);
+  }
+  50% {
+    -webkit-transform: translate(-10%, 5%);
+            transform: translate(-10%, 5%);
+  }
+  60% {
+    -webkit-transform: translate(15%, 0);
+            transform: translate(15%, 0);
+  }
+  70% {
+    -webkit-transform: translate(0, 10%);
+            transform: translate(0, 10%);
+  }
+  80% {
+    -webkit-transform: translate(-15%, 0);
+            transform: translate(-15%, 0);
+  }
+  90% {
+    -webkit-transform: translate(10%, 5%);
+            transform: translate(10%, 5%);
+  }
+  100% {
+    -webkit-transform: translate(5%, 0);
+            transform: translate(5%, 0);
+  }
+}
+
+@keyframes bg-animation {
+  0% {
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
+  10% {
+    -webkit-transform: translate(-5%, -5%);
+            transform: translate(-5%, -5%);
+  }
+  20% {
+    -webkit-transform: translate(-10%, 5%);
+            transform: translate(-10%, 5%);
+  }
+  30% {
+    -webkit-transform: translate(5%, -10%);
+            transform: translate(5%, -10%);
+  }
+  40% {
+    -webkit-transform: translate(-5%, 15%);
+            transform: translate(-5%, 15%);
+  }
+  50% {
+    -webkit-transform: translate(-10%, 5%);
+            transform: translate(-10%, 5%);
+  }
+  60% {
+    -webkit-transform: translate(15%, 0);
+            transform: translate(15%, 0);
+  }
+  70% {
+    -webkit-transform: translate(0, 10%);
+            transform: translate(0, 10%);
+  }
+  80% {
+    -webkit-transform: translate(-15%, 0);
+            transform: translate(-15%, 0);
+  }
+  90% {
+    -webkit-transform: translate(10%, 5%);
+            transform: translate(10%, 5%);
+  }
+  100% {
+    -webkit-transform: translate(5%, 0);
+            transform: translate(5%, 0);
+  }
+}
+
 .la-galeria {
   margin-top: 150px;
   color: #FFBA00;
@@ -193,7 +311,8 @@ footer ul {
 }
 
 .card {
-  background-color: #FFBA00;
+  background-image: url(../img/back-card-galeria.svg);
+  background-size: cover;
 }
 
 .card:hover {
@@ -210,6 +329,10 @@ footer ul {
 .card-text {
   font-size: 1.1em;
   font-family: "Bebas Neue";
+}
+
+.text-muted {
+  color: white !important;
 }
 
 .borde_contact {
@@ -236,6 +359,41 @@ label {
 
 .boton-contacto {
   background-color: #FFBA00 !important;
+}
+
+.deliv-body {
+  margin-top: 180px;
+  margin-bottom: 180px;
+  background-color: rgba(0, 0, 0, 0.767);
+}
+
+.deliv-body h2 {
+  font-size: 6.50em;
+}
+
+.deliv-body p {
+  font-size: 2em;
+}
+
+.deliv-body h4 {
+  font-size: 1.8em;
+  padding-bottom: 10px;
+}
+
+.deliv-body span {
+  font-size: 1.2em;
+  padding-top: 3px;
+}
+
+.deliv-body iframe {
+  padding-right: 0px;
+}
+
+@media screen and (max-width: 1199) {
+  .deliv-body h4 {
+    font-size: 10em;
+    color: aqua;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -308,32 +466,5 @@ label {
   .la-galeria {
     font-size: 3.5em;
   }
-}
-
-.deliv-body {
-  margin-top: 180px;
-  margin-bottom: 180px;
-  background-color: rgba(0, 0, 0, 0.767);
-}
-
-.deliv-body h2 {
-  font-size: 6.50em;
-}
-
-.deliv-body p {
-  font-size: 2.5em;
-}
-
-.deliv-body h4 {
-  font-size: 2em;
-  padding-bottom: 10px;
-}
-
-.deliv-body span {
-  padding-top: 3px;
-}
-
-.deliv-body iframe {
-  padding-right: 0px;
 }
 /*# sourceMappingURL=estilos.css.map */
