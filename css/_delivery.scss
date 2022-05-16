@@ -3,34 +3,38 @@
     margin-top: 180px;
     margin-bottom: 180px;
     background-color: rgba(0, 0, 0, 0.767);
-}
-
-.deliv-body h2{
-    @extend .font_yellow;
-    font-size: 6.50em;
-
-}
 
 
-.deliv-body p{
-    @extend .font_yellow;
-    font-size: 2em;
-}
+    h2{
+        @extend .font_yellow;
+        font-size: 6.50em;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+    }
 
-.deliv-body h4{
-    @extend .font_yellow;
-    font-size: 1.8em;
-    padding-bottom: 10px
-}
-
-.deliv-body span{
-    font-size: 1.2em;
-    @extend.font_yellow;
-    padding-top: 3px;
-
-}
+    
+    p{
+        @extend .font_yellow;
+        font-size: 1.4em;
+    }
 
 
-.deliv-body iframe{
-    padding-right:0px;
-}
+    
+
+    h4{
+        @extend .font_yellow;
+        font-size: 3.5em;
+        margin-top: 25px;
+        padding-bottom: 10px
+    }
+    
+
+    span{
+        @extend .font_yellow;
+        font-size: 1.2em;
+        padding-top: 3px;
+    }
+
+    
+    }
+    
